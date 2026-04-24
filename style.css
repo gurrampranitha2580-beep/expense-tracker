@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #e9dfcf;
+    padding: 30px;
+    color: #222;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 8px;
+    color: #1f1f1f;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    margin-bottom: 25px;
+}
+
+.card {
+    background: #ffffff;
+    padding: 22px;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border: 1px solid #ece8df;
+}
+
+.card h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #555;
+    font-weight: 600;
+}
+
+.card p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #222;
+}
+
+.salary-card {
+    border-top: 4px solid #c8b6a6;
+}
+
+.expense-card {
+    border-top: 4px solid #b7b7a4;
+}
+
+.balance-card {
+    border-top: 4px solid #9caf88;
+}
+
+#warningMessage {
+    font-size: 14px;
+    color: #c0392b;
+    margin-top: 8px;
+    font-weight: normal;
+}
+
+.box {
+    background: #ffffff;
+    padding: 24px;
+    margin-bottom: 22px;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border: 1px solid #ece8df;
+}
+
+h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #222;
+}
+
+input {
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 14px;
+    border: 1px solid #d8d5cc;
+    border-radius: 8px;
+    font-size: 15px;
+    background: #fcfbf8;
+    outline: none;
+}
+
+input:focus {
+    border-color: #8d7b68;
+}
+
+button {
+    width: 100%;
+    padding: 13px;
+    background: #2f2f2f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #1f1f1f;
+}
+
+
+#expenseList {
+    list-style: none;
+}
+
+#expenseList li {
+    background: #fcfbf8;
+    padding: 14px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    border: 1px solid #e6e2d9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#emptyMessage {
+    justify-content: center;
+    color: #777;
+}
+
+.delete-btn {
+    background: #b23a48;
+    width: auto;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background: #8f2d38;
+}
+
+#balanceLine {
+    font-weight: bold;
+}
+
+canvas {
+    margin-top: 15px;
+}
+
+
+@media (max-width: 768px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    body {
+        padding: 18px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+}
