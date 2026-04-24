@@ -38,6 +38,3 @@ how to change chart colors and make it look better
 
 how to make my project ui look better for internship submission
 
-how to write readme file for frontend internship project
-
-what should i speak in 2 minute demo video
