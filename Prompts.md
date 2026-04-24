@@ -1,77 +1,43 @@
 # Prompts Used During Development
 
-## UI and Layout
+how to make salary and expense tracker using html css js
 
-How to create a clean salary and expense tracker using HTML, CSS and JavaScript
+how to show salary after clicking save button
 
-How to make summary cards for salary, total spending and remaining balance
+how to add expense name and amount to list using javascript
 
-How to improve my project UI so it looks professional for internship submission
+how to calculate remaining balance after adding expenses
 
-How to make my frontend project look clean without using React
+why input value is coming as string in js
 
-How to improve spacing, alignment and card design in my expense tracker
+how to use Number() for salary and expense calculation
 
-How to make the expense list section look better and more organized
+how to stop empty input from getting added
 
-How to style a trash icon delete button using CSS
+how to stop negative values in expense amount
 
-How to make the project responsive for mobile and desktop screens
+how to delete one expense when clicking delete button
 
+how to update balance after deleting one expense
 
-## JavaScript Logic
+how to save salary and expenses in localStorage
 
-How to display entered salary on screen after clicking save button
+why JSON.stringify and JSON.parse are used
 
-How to add expense name and amount dynamically to a list using JavaScript
+how to show saved data after page refresh
 
-How to calculate remaining balance after adding multiple expenses
+how to add pie chart using chart js cdn
 
-Why input values are treated as strings in JavaScript
+how to show expenses and remaining balance in pie chart
 
-Should I use Number() or parseFloat() for salary and expense calculations
+why my chart disappears after adding new expense
 
-How to prevent empty or negative values from being added
+how to use chart.destroy() in chart js
 
+how to change chart colors and make it look better
 
-## Delete Functionality
+how to make my project ui look better for internship submission
 
-How to delete a specific expense item when clicking the trash button
+how to write readme file for frontend internship project
 
-How to update total expenses and remaining balance immediately after deleting expense
-
-
-## LocalStorage
-
-How to save salary and expense list using localStorage
-
-Why localStorage needs JSON.stringify() and JSON.parse()
-
-How to load saved salary and expenses after refreshing the page
-
-How to make data stay even after browser refresh
-
-
-## Chart.js
-
-How to add a pie chart using Chart.js CDN in normal HTML project
-
-How to show Total Expenses vs Remaining Balance in pie chart
-
-How to update pie chart automatically after adding or deleting expenses
-
-My Chart.js chart disappears after updating data, how to fix it
-
-How to use chart.destroy() before creating a new chart
-
-How to change chart colors so they match my project UI
-
-
-## Final Submission
-
-How to make my internship project look stronger for reviewer impression
-
-How to write a simple README.md for frontend internship project
-
-
-#
+what should i speak in 2 minute demo video
