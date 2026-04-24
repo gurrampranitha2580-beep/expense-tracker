@@ -35,7 +35,3 @@ This project helped me improve my understanding of:
 - Real-time UI updates
 - JavaScript logic building
 - Working with Chart.js
-
-## Project Status
-
-Completed successfully as per Level 2 requirements.
